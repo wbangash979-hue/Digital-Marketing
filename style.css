@@ -1,0 +1,47 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    width: 20px;
+    padding-bottom: 4px;
+}
+.callbtn {
+    height: 38px;
+    width: 80px;
+    background: linear-gradient(to right, #0acefe, #2699fb);
+}
+
+input[placeholder] {
+    padding-left: 30px;
+}
+
+.regester {
+    width: 100%;
+    margin-top: 10px;
+}
+.downloed {
+      background: linear-gradient(to right, #0acefe, #2699fb);
+}
+
+ .box{
+    background-color: rgb(229, 221, 221);
+ }
+
+
+ .btnnnn{
+      background-image: linear-gradient(to right, #0acefe, #2699fb);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2),
+              0 -4px 6px rgba(0,0,0,0.2),
+              4px 0 6px rgba(0,0,0,0.2),
+              -4px 0 6px rgba(0,0,0,0.2);
+ }
+ 
+ .Accordation{
+    background-color: rgb(225, 223, 223);
+ }
+ .footerrr{
+    background-color: rgb(64, 62, 62) !important;
+ }

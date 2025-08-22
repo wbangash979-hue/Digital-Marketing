@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_query.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:wght@300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="container shadow-lg mb-5 fixed-top ">
+            <div class="row ">
+
+
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand fw-bold" href="#">Bordstrokes</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="about" class="nav-link" href="">About us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item border-bottom" href="#">Core Digital Marketing Services</a></li>
+                                        
+                                        <li><a class="dropdown-item border-bottom" href="#">Branding & Creative</a></li>
+                                        <li>
+                                            <!-- <hr class="dropdown-divider"> -->
+                                        </li>
+                                        <li><a class="dropdown-item border-bottom" href="#"> E-Commerce Focused</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-between text-white  ">
+                        <div class="col-lg-4 bg-danger mb-2 p-2 rounded-2 ">Hello</div>
+                        <div class="col-lg-4 bg-primary mb-2 p-2 rounded-2">Hello</div>
+                        <div class="col-lg-3 bg-warning mb-2 p-2 rounded-2">Hello</div>
+                        <div class="col-lg-4 bg-danger p-2 rounded-2">Hello</div>
+                        <div class="col-lg-4 bg-primary p-2 rounded-2">Hello</div>
+                        <div class="col-lg-3 bg-warning p-2 rounded-2">Hello</div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Hero Section start __--------------------------------->
+
+    <div class="container-fluid ">
+        <div class="container mt-5 pt-5">
+            <!-- start row -->
+            <div class="row justify-content-between  ">
+
+                <div class="col-lg-6 main ">
+                    <h1 class="fw-bolder head ">Career Opurtunity in <br><span class="text-primary">Digital
+                            Marketing</span> </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, dolore?</p>
+                    <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                    <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                    <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+
+                    <div>
+                        <div class="btn">
+                            <button type="button" class="btn btn-primary " data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Book Free Classes</button>
+
+                            <a href="" class="btn book btn-light border-dark "><i
+                                    class="fa-solid fa-arrow-down"></i>&nbsp;Downloed Currculum</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 threee  shadow p-3 mb-5 bg-body rounded  border-bottom spb-2 mb-3 ">
+                    <h2 class="fw-bolder text-center fs-3 bokkkk">Book Your Free class Now</h2>
+                    <p class="text-center">Lorem ipsum dolor sit, amet Odit, </p>
+
+                    <form action="/action" class="rounded">
+                        <label for="name">Name</label>
+                        <input class="rounded-1 form-control" type="text" id="name" placeholder="Enter your Name"> <br>
+
+                        <label for="Email">Email</label>
+                        <input class="rounded-1 form-control" type="email" id="email" placeholder="Enter your Name">
+                        <br>
+
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">+92</span>
+                            <input type="text" class="form-control" placeholder="Enter Mobile Number"
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                        <a href="" class="btn btn-primary regester">Regester Now</a>
+
+                </div>
+
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid ">
+        <div class="container  shadow-lg ">
+            <div class="row row-cols-lg-5 row-cols-md-2 row-cols-1 text-start text-sm-end  rate pt-3 mb-5">
+                <div class="col">
+                    <h1 class="text-center text-primary">1000</h1>
+                    <p class="text-center">Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="col">
+                    <h1 class="text-center text-primary">1000</h1>
+                    <p class="text-center">Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="col">
+                    <h1 class="text-center text-primary">1000</h1>
+                    <p class="text-center">Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="col">
+                    <h1 class="text-center text-primary">1000</h1>
+                    <p class="text-center">Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="col">
+                    <h1 class="text-center text-primary">1000</h1>
+                    <p class="text-center">Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid fa-building-wheat">
+        <div class="container">
+            <div class="row mb-5">
+                <h1 class="text-center">Key Highlight of Course</h1>
+                <p class="text-center"> adipisicing elit. Deleniti quidem doloribus repellat.
+                    Recusandae tempora quos vero dicta, atque magni autem voluptate quis ut!</p>
+            </div>
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4  justify-content-around ">
+                <div class=" col  p-2 d-flex  gap-5  box   ">
+                    <div>
+                        <img style="width: 100px; " src="neon-frame_23-2150588470.avif" alt="">
+                    </div>
+                    <div>
+                        <h4>Lorem iure illo dolor vel sed?</h4>
+                        <p>Check Your Knowledge</p>
+                    </div>
+
+                </div>
+                <div class="col  p-2 d-flex gap-5  box">
+                    <div>
+                        <img style="width: 100px; " src="neon-frame_23-2150588470.avif" alt="">
+                    </div>
+                    <div>
+                        <h4>Lorem iure illo dolor vel sed?</h4>
+                        <p>Check Your Knowledge</p>
+                    </div>
+                </div>
+                <div class="col  p-2 d-flex gap-5  box  ">
+                    <div>
+                        <img style="width: 100px; " src="neon-frame_23-2150588470.avif" alt="">
+                    </div>
+                    <div>
+                        <h4>Lorem iure illo dolor vel sed?</h4>
+                        <p>Check Your Knowledge</p>
+                    </div>
+                </div>
+                <div class="col  p-2 d-flex gap-5  box ">
+                    <div>
+                        <img style="width: 100px; " src="neon-frame_23-2150588470.avif" alt="">
+                    </div>
+                    <div>
+                        <h4>Lorem iure illo dolor vel sed?</h4>
+                        <p>Check Your Knowledge</p>
+                    </div>
+                </div>
+                <div class="col  p-2 d-flex gap-5  box">
+                    <div>
+                        <img style="width: 100px; " src="neon-frame_23-2150588470.avif" alt="">
+                    </div>
+                    <div>
+                        <h4>Lorem iure illo dolor vel sed?</h4>
+                        <p>Check Your Knowledge</p>
+                    </div>
+                </div>
+                <div class="col  p-2 d-flex gap-5  box ">
+                    <div>
+                        <img style="width: 100px; " src="neon-frame_23-2150588470.avif" alt="">
+                    </div>
+                    <div>
+                        <h4>Lorem iure illo dolor vel sed?</h4>
+                        <p>Check Your Knowledge</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="d-flex justify-content-center  ">
+                <button type="button" class="btn btn-primary mt-4 p-2 fs-5 border-0 btnnnn ">Book Free Classes</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid Accordation mt-4">
+        <div class="container">
+            <div class="row col-12">
+                <h2 class="text-center mt-5">Digital Marketing Course</h2>
+                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio cumque itaque
+                    blanditiis voluptate molestiae?</p>
+            </div>
+        </div>
+
+        <div class="row col-8 m-auto">
+
+
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            What is Software Engineering
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                            body.</div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            What is Software Engineering
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            What is Software Engineering
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pb-3 ">
+            <button type="button" class="btn btn-primary mt-4 p-2 fs-5 border-0 btnnnn ">Book Free Classes</button>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container mt-5">
+            <div class="row col-lg-12">
+                <h2 class="text-center fw-bold">Curriculum Of <br> Our Digital Marketing </h2>
+                <p class="text-center">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <div class="row">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="row col-12 shadow-lg">
+
+                            <div class="col-6">
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+                            </div>
+
+
+                            <div class="col-6">
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row col-12 shadow-lg">
+
+                            <div class="col-6">
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+                            </div>
+
+
+                            <div class="col-6">
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row col-12 shadow-lg">
+
+                            <div class="col-6">
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+                            </div>
+
+
+                            <div class="col-6">
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+
+
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem, ipsum dolor.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class=" footerrr text-white pt-4 pb-2 mt-5">
+  <div class="container text-center text-md-start">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Your Digital Agency</h5>
+        <p>We help businesses grow online with SEO, social media, and paid ads. Let’s scale your brand!</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Portfolio</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact & Social -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Get in Touch</h5>
+        <p>Email: <a href="mailto:info@youragency.com" class="text-white">info@youragency.com</a></p>
+        <p>Phone: +1 234 567 890</p>
+        <div>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="text-center mt-3 border-top pt-2">
+    <p class="mb-0">&copy; 2025 Your Digital Agency. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap Bundle with JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
