@@ -4,6 +4,12 @@
         bottom: 0px;
         background-color: white;
     }
+    .butt{
+        width: 200px;
+    }
+    .book{
+        width: 200px !important;
+    }
     .btn-outer{
         
          margin-left: 35px;
@@ -12,6 +18,7 @@
     .bokkkk{
         font-size: small !important;
         font-size: 10px !important;
+        
     }
     .btn a{
         width: 100%;
@@ -37,7 +44,12 @@
     .head{
         font-size: 20px !important;
     }
+    .headd{
+                font-size: 10px !important;
+
+    }
     .btn a {
         flex-direction: column;
     }
+    
 }
